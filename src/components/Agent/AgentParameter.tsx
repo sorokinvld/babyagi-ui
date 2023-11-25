@@ -31,8 +31,6 @@ export const AgentParameter: FC<AgentParameterProps> = ({
     if (model.id !== 'gpt-4') {
       option = AGENT.filter(
         (agent) =>
-          agent.id === 'babyagi' ||
-          agent.id === 'babydeeragi' ||
           agent.id === 'babyelfagi',
       );
     } else {
